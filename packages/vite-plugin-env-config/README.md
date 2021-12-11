@@ -1,6 +1,6 @@
-# @svitejs/project-template
+# vite-plugin-env-config
 
-PROJECT TAGLINE HERE
+Set vite config options with environment variables
 
 ## Installation
 
@@ -10,7 +10,7 @@ pnpm i -D vite-plugin-env-config
 
 ## Usage
 
-### add plugin to vite
+### add to vite config
 
 ```ts
 // vite config
@@ -26,7 +26,7 @@ export default defineConfig({
 });
 ```
 
-### set config options via env
+### use environment variables to specify config values on the fly
 
 ```shell
 # this calls vite build with build.minify set to false in resolved config
@@ -57,6 +57,11 @@ interface Options {
 >
 > - Use A-Z\_ chars for prefix
 > - separator should be left at _ for regular use, if you want to set a property that contains a _, use \_\_
+
+## Limitations
+
+- uses JSON.parse to parse values, what cannot be parsed will be converted to string
+- can only set object properties, not array items
 
 ## License
 
