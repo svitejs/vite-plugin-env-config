@@ -38,10 +38,10 @@
   },
   "homepage": "https://github.com/svitejs/vite-plugin-env-config/packages/vite-plugin-config-env#readme",
   "devDependencies": {
-    "uvu": "^0.5.2",
+    "uvu": "^0.5.3",
     "vite": "^2.7.10"
   },
   "dependencies": {
-    "just-safe-set": "^4.0.1"
+    "just-safe-set": "^4.0.2"
   }
 }
