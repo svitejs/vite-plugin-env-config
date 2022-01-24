@@ -56,7 +56,8 @@
   "pnpm": {
     "overrides": {
       "@svitejs/vite-plugin-env-config": "workspace:*",
-      "ansi-regex@>2.1.1 <5.0.1": "^5.0.1"
+      "ansi-regex@>2.1.1 <5.0.1": "^5.0.1",
+      "node-fetch@>2.0.0 <2.6.7": "^2.6.7"
     }
   }
 }
