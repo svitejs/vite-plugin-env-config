@@ -10,7 +10,7 @@ module.exports = {
 		Atomics: 'readonly',
 		SharedArrayBuffer: 'readonly'
 	},
-	plugins: ['@typescript-eslint', 'html', 'markdown'],
+	plugins: ['@typescript-eslint', 'markdown'],
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		sourceType: 'module',
@@ -59,13 +59,6 @@ module.exports = {
 				'node/no-extraneous-require': 'off',
 				'import/no-unresolved': 'off',
 				'node/no-missing-require': 'off'
-			}
-		},
-		{
-			files: ['scripts/**'],
-			env: {
-				node: true,
-				browser: false
 			}
 		}
 	]
