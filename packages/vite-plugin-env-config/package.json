@@ -39,7 +39,7 @@
   "homepage": "https://github.com/svitejs/vite-plugin-env-config/packages/vite-plugin-config-env#readme",
   "devDependencies": {
     "uvu": "^0.5.3",
-    "vite": "^2.8.1"
+    "vite": "^2.8.4"
   },
   "dependencies": {
     "just-safe-set": "^4.0.2"
