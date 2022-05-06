@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^2.9.1",
+    "vite": "^2.9.8",
     "vite-plugin-env-config": "workspace:*",
     "cross-env": "^7.0.3"
   }
