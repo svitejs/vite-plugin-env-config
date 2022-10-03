@@ -1,5 +1,11 @@
 # vite-plugin-env-config
 
+## 2.0.1
+
+### Patch Changes
+
+- dummy release to test release job permissions ([#42](https://github.com/svitejs/vite-plugin-env-config/pull/42))
+
 ## 2.0.0
 
 ### Major Changes
