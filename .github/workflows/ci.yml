@@ -9,6 +9,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
   # "checks" job runs on linux + node16 only and checks that install, build, lint and audit work
   # it also primes the pnpm store cache for linux, important for downstream tests
