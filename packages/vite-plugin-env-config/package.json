@@ -42,6 +42,6 @@
     "vite": "^3.2.5"
   },
   "dependencies": {
-    "just-safe-set": "^4.2.0"
+    "just-safe-set": "^4.2.1"
   }
 }
